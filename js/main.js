@@ -24,7 +24,8 @@ function startGame(e) {
   // console.log(e.target.id)
   var userChoice = e.target.id
   // var compChoice = compArr[Math.floor(Math.random() * compArray.length)] // Couldn't get this to work
-  var compChoice = Math.random(1);
+  var compChoice = Math.random(1); // = Math.floor(Math.random() * compArr.length)
+                                      // comChoice = comArr[i]
     if (compChoice < 0.33) {
       compChoice = "rock"
     }
