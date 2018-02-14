@@ -6,21 +6,30 @@
 
   <body>
     <h1>Welcome to Rock - Paper - Scissors</h1>
-      <button id="rock" class="choice">Rock</button>
-      <button id="paper" class="choice">Paper</button>
-      <button id="scissors" class="choice">Scissors</button>
+    <div class="clearfix">
+      <button><img class="choice" id="rock" src="images/rock.jpg" alt="Picture of a rock"></button>
+      <button><img class="choice" id="paper" src="images/paper.jpg" alt="Picture of paper"></button>
+      <button><img class="choice" id="scissors" src="images/scissors.jpg" alt="Picture of scissors"></button>
+      <h3>*---<label id='result'></label>---*</h3>
+    </div>
 
-
-
-      
-      <h3>Your choice: <h3 id='user'></h3></h3> 
-    
-      <h3>Computer choice: <h3 id='comp'></h3></h3>   
-      
-      <h3 id='result'></h3>
-
-      <h5>You won 123/123</h5>
-
+      <div class="col-1-2">
+        <h3 class="align_r">Your choice: </h3> 
+        <h3 class="align_r">Computer choice: </h3>   
+        <h5 class="align_r">Times you won: </h5>
+        <h5 class="align_r">Times you lost: </h5>
+        <h5 class="align_r">Times you tied: </h5>
+      </div><!--
+      --><aside class="col-2-2">
+        <h3 class="align_l" id='user'></h3>
+        <h3 class="align_l" id='comp'></h3>
+        <h5 class="align_l"><label id="won"></label> <label id="per_won"></label></h5>
+        <h5 class="align_l"><label id="lost"></label> <label id="per_lost"></label></h5>
+        <h5 class="align_l"><label id="tied"><label> <label id="per_tied"></label></h5>
+        
+      </aside>
+      <h6 class="clearfix">Thank you for playing, have a great day</h6>
+      <button id="clear_btn">Clear Page</button>
     <script src="./js/main.js"></script>
   </body>
 </html>
