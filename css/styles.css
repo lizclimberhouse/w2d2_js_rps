@@ -32,6 +32,7 @@ img {
   height: 100px;
   width: 100px;
 }
+
 #scissors {
   margin-right: 0;
 }
@@ -39,7 +40,10 @@ img {
 button:hover {
   background: #777;
 }
-
+#clear_btn {
+  height: 40px;
+  width: 80px;
+}
 .col-1-2 {
   width: 50%;
   height: 100%;
@@ -67,3 +71,15 @@ button:hover {
   text-align: left;
 }
 
+.your_choice {
+  color: yellow;
+}
+.comp_choice  {
+  color: blue;
+}
+.win_times {
+  color: green;
+}
+.lost_times{
+  color: red;
+}
