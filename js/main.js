@@ -20,6 +20,20 @@ var per_lost = 0
 var tied_per = document.getElementById('per_tied')
 var per_tied = 0
 
+// Dan Actors example of how to push answers to an array and then you could do the math from there by counting how many of what in the array.
+// function clickButton() {
+//   var id = this.id
+//   if(this.id == "reset") {
+//       playerWins.length = 0;
+//       document.getElementById("playerscore").innerHTML = playerWins.length
+//       compWins.length = 0;
+//       document.getElementById("compscore").innerHTML = compWins.length
+//     } else document.getElementById("choice").innerHTML = "You chose " + id
+//   playerChoice.unshift(this.id)
+//   compAssign(compChoice.unshift)
+//   assess(playerChoice[0], compChoice)
+// }
+
 function startGame(e) {
   // console.log(e.target.id)
   var userChoice = e.target.id
